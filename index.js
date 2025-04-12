@@ -24,9 +24,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.post('/submit', (req, res) => {
 
-    let n = Math.random();
-    let percentage = n * 100;
-    percentage = Math.floor(percentage);
+    let percentage = Math.random() * 100;
+    percentage = Math.floor(percentage) + 1;
 
     const { name, crush } = req.body;
 
