@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crush Score</title>
+
+    <link rel="stylesheet" href="../static/style-sheets/style.css">
+
+</head>
+<body>
+
+    <h1>Crush Score</h1>
+
+    <img src="../static/images/love_image.png" alt="Hands making a heart at sunset">
+
+    <p>Wanna find out if your crush is into you too? <br />Just type your name and theirs to see the love score!
+    </p>
+
+    <div class="label-and-inputs">
+        
+
+        <form class="form-container" action="http://localhost:3000/submit" method="POST">
+
+            <label for="name">Type your name</label>
+            <input id ="name" type="text" name="name">
+
+            <br/>
+
+            <label for="crush">Your Crush's name</label>
+            <input id ="crush" type="text" name="crush">
+
+            <br/>
+
+            <input class="submit" type="submit" value="Submit">
+
+        </form>
+
+        
+    </div>
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2025 Crush Score. All rights reserved.</p>
+            <p>Contact us at <a href="test@mail.com">test@mail.com</a></p>
+        </div>
+    </footer>
+    
+</body>
+</html>

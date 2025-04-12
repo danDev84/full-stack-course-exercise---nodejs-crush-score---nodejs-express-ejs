@@ -1,0 +1,87 @@
+body {
+    background-color: rgba(226, 28, 28, 0.82);
+    color: whitesmoke;
+}
+
+h1, h2, p, button, label, input, button {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: xx-large;
+}
+
+div.container {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    padding-bottom: 25px;
+
+}
+
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: x-large;
+
+    color: whitesmoke;
+    background-color: #e0461c;
+    border-color: #ea795a;
+
+    border-radius: 10px;
+
+}
+
+input[type="submit"] {
+    color: whitesmoke;
+    background-color: #e0461c;
+    border-color: #e0461c;
+    border-radius: 10px;
+    border-color: #ea795a;
+}
+
+label {
+    
+    padding-right: 20px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;  /* horizontal centering */
+    align-items: center;      /* vertical centering */
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+
+footer {
+    background-color: #ffccd5;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+    border-top: 2px solid #ffafbd;
+    font-size: 14px;
+}
+
+.footer-container a {
+    color: #cc3366;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-container a:hover {
+    text-decoration: underline;
+}
+
